@@ -1,0 +1,30 @@
+.button {
+  height: 40px;
+  border: none;
+  border-radius: 40px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-size: 14pt;
+  font-weight: 700;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.primary {
+  background: var(--btn-primary);
+  color: var(--btn-color-primary);
+  transition: all ease-in-out 0.3s;
+}
+
+.primary:hover {
+  background: var(--btn-primary-hover);
+}
+
+.secondary {
+  background: rgb(192, 192, 192);
+  color: var(--btn-color-secondary);
+}
