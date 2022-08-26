@@ -1,0 +1,23 @@
+.thumbs {
+  list-style: none;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.thumbs li {
+  display: inline-block;
+}
+
+.thumbs .slick-active img {
+  filter: none;
+}
+
+.thumbs li img {
+  filter: grayscale() opacity(0.5);
+}
+
+.thumbs li img:hover {
+  filter: none;
+  cursor: pointer;
+}

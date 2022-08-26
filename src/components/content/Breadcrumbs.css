@@ -1,0 +1,17 @@
+.breadcrumbs {
+  list-style: none;
+  font-size: 10pt;
+}
+
+.breadcrumbs li {
+  display: inline-block;
+}
+
+.breadcrumbs li:first-child::before {
+  content: none;
+}
+
+.breadcrumbs li::before {
+  content: "→";
+  margin: 0 15px;
+}

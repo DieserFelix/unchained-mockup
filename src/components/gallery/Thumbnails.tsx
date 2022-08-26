@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-
+import "./Thumbnails.css";
 interface Props {
   children: React.ReactNode;
 }
