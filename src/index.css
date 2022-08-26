@@ -1,13 +1,59 @@
+html,
 body {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: var(--body-lineheight);
+  font-weight: var(--body-fontweight);
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.active {
+  color: rgb(40 190 115);
+}
+
+:root {
+  --body-lineheight: 1.5;
+  --body-fontweight: 400;
+  --text-primary: rgb(0, 0, 0);
+  --text-secondary: rgb(130, 130, 130);
+  --bg-secondary: rgb(120, 120, 120);
+
+  --btn-primary: #313130;
+  --btn-primary-hover: rgb(70, 70, 70);
+  --btn-color-primary: white;
+  --btn-secondary: rgb(192, 192, 192);
+  --btn-color-secondary: var(--text-primary);
+
+  --bg-table-head: rgb(243, 243, 243);
+  --bg-hint: rgb(210 255 235);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.2;
 }
