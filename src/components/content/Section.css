@@ -1,0 +1,21 @@
+.section {
+  margin: 25px 0;
+  height: auto;
+  border-top: 1px solid var(--bg-secondary);
+  overflow: hidden;
+  transition: all ease-in-out 0.5s;
+}
+
+.section h2:hover {
+  cursor: pointer;
+}
+
+.section .collapsible,
+.section .expandable {
+  display: inline-block;
+  transition: all ease-in-out 0.5s;
+}
+
+.section .expandable {
+  transform: rotate(0.25turn);
+}

@@ -1,0 +1,26 @@
+.tableContainer {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.tableContainer table {
+  width: 100%;
+  line-height: 1.5;
+  border-collapse: collapse;
+}
+
+.tableContainer table th {
+  text-align: left;
+  background: var(--bg-table-head);
+  font-size: 14pt;
+  padding: 5px;
+}
+
+.tableContainer table td {
+  width: 50%;
+  padding: 10px;
+}
+
+.tableContainer table tr {
+  border-bottom: 1px solid var(--bg-secondary);
+}

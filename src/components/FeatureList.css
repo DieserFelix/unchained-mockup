@@ -1,0 +1,21 @@
+.featureList {
+  list-style-type: none;
+  position: relative;
+}
+
+.featureList li {
+  line-height: var(--body-lineheight);
+  margin-bottom: 25px;
+}
+
+.featureList li::before {
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  content: "✔";
+  width: 25px;
+  color: rgb(40 190 115);
+  text-align: center;
+  background: var(--bg-hint);
+  border-radius: 50%;
+}
